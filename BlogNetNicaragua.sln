@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{35079C64-A7B0-471C-A83D-7177DEA14C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogNetNicaragua.Web", "src\BlogNetNicaragua.Web\BlogNetNicaragua.Web.csproj", "{1470FA52-E423-4A9F-AAE9-016D6F931BC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F4865E4E-E9A3-4B10-8EEE-9962EABDA4F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogModule", "src\Modules\BlogModule\BlogModule.csproj", "{459E0E3E-5A15-4E9A-B1E8-0EF07840AA04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{9CC074B4-F8B2-4A33-9F3C-D940F82EF89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Theme", "src\Themes\Blog.Theme\Blog.Theme.csproj", "{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1470FA52-E423-4A9F-AAE9-016D6F931BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1470FA52-E423-4A9F-AAE9-016D6F931BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1470FA52-E423-4A9F-AAE9-016D6F931BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1470FA52-E423-4A9F-AAE9-016D6F931BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{459E0E3E-5A15-4E9A-B1E8-0EF07840AA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{459E0E3E-5A15-4E9A-B1E8-0EF07840AA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{459E0E3E-5A15-4E9A-B1E8-0EF07840AA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{459E0E3E-5A15-4E9A-B1E8-0EF07840AA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1470FA52-E423-4A9F-AAE9-016D6F931BC7} = {35079C64-A7B0-471C-A83D-7177DEA14C74}
+		{F4865E4E-E9A3-4B10-8EEE-9962EABDA4F2} = {35079C64-A7B0-471C-A83D-7177DEA14C74}
+		{459E0E3E-5A15-4E9A-B1E8-0EF07840AA04} = {F4865E4E-E9A3-4B10-8EEE-9962EABDA4F2}
+		{9CC074B4-F8B2-4A33-9F3C-D940F82EF89B} = {35079C64-A7B0-471C-A83D-7177DEA14C74}
+		{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF} = {9CC074B4-F8B2-4A33-9F3C-D940F82EF89B}
+	EndGlobalSection
+EndGlobal
