@@ -30,11 +30,11 @@ This repository is designed to collaborate in the development process of the .Ne
       News
     </a>
     <span> | </span>
-    <a href="(https://www.linkedin.com/company/net-nicaragua)">
+    <a href="https://www.linkedin.com/company/net-nicaragua">
       Events
     </a>
     <span> | </span>
-    <a href="(https://www.linkedin.com/company/net-nicaragua">
+    <a href="https://www.linkedin.com/company/net-nicaragua">
       Gallery
     </a>
     <span> | </span>
@@ -67,7 +67,7 @@ Follow these steps for run the project.
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/denuxs/pitch-flutter.git
+https://github.com/dotnetnicaragua/BlogNetNicaragua.git
 ```
 
 **Step 2:**
