@@ -5,23 +5,24 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{35079C64-A7B0-471C-A83D-7177DEA14C74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogNetNicaragua.Web", "src\BlogNetNicaragua.Web\BlogNetNicaragua.Web.csproj", "{1470FA52-E423-4A9F-AAE9-016D6F931BC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogNetNicaragua.Web", "src\BlogNetNicaragua.Web\BlogNetNicaragua.Web.csproj", "{1470FA52-E423-4A9F-AAE9-016D6F931BC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F4865E4E-E9A3-4B10-8EEE-9962EABDA4F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogModule", "src\Modules\BlogModule\BlogModule.csproj", "{459E0E3E-5A15-4E9A-B1E8-0EF07840AA04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogModule", "src\Modules\BlogModule\BlogModule.csproj", "{459E0E3E-5A15-4E9A-B1E8-0EF07840AA04}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{9CC074B4-F8B2-4A33-9F3C-D940F82EF89B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Theme", "src\Themes\Blog.Theme\Blog.Theme.csproj", "{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Theme", "src\Themes\Blog.Theme\Blog.Theme.csproj", "{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{08CA5760-105A-42D1-9FD5-EBC2CB7E1A9C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Blog.Database", "src\Database\Blog.Database\Blog.Database.sqlproj", "{14341606-CDDD-4417-8233-BDF84DC99330}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1470FA52-E423-4A9F-AAE9-016D6F931BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,6 +37,15 @@ Global
 		{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14341606-CDDD-4417-8233-BDF84DC99330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14341606-CDDD-4417-8233-BDF84DC99330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14341606-CDDD-4417-8233-BDF84DC99330}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{14341606-CDDD-4417-8233-BDF84DC99330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14341606-CDDD-4417-8233-BDF84DC99330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14341606-CDDD-4417-8233-BDF84DC99330}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1470FA52-E423-4A9F-AAE9-016D6F931BC7} = {35079C64-A7B0-471C-A83D-7177DEA14C74}
@@ -43,5 +53,10 @@ Global
 		{459E0E3E-5A15-4E9A-B1E8-0EF07840AA04} = {F4865E4E-E9A3-4B10-8EEE-9962EABDA4F2}
 		{9CC074B4-F8B2-4A33-9F3C-D940F82EF89B} = {35079C64-A7B0-471C-A83D-7177DEA14C74}
 		{8F220437-95F4-48D2-81DD-DDB8AE2DE6BF} = {9CC074B4-F8B2-4A33-9F3C-D940F82EF89B}
+		{08CA5760-105A-42D1-9FD5-EBC2CB7E1A9C} = {35079C64-A7B0-471C-A83D-7177DEA14C74}
+		{14341606-CDDD-4417-8233-BDF84DC99330} = {08CA5760-105A-42D1-9FD5-EBC2CB7E1A9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B6A5DE9-F9E1-41AE-B338-FF61186A0F3A}
 	EndGlobalSection
 EndGlobal
